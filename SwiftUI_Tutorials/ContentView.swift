@@ -7,23 +7,35 @@
 
 import SwiftUI
 
+let gradientColors: [Color] = [
+    .gradientTop,
+    .gradientBottom
+]
+
 struct ContentView: View {
     var body: some View {
-        HStack {
-            DayForecast(
-                day: "Mon",
-                isRainy: false,
-                high: 70,
-                low: 50
-            )
-            
-            DayForecast(
-                day: "Tue",
-                isRainy: true,
-                high: 60,
-                low: 40
-            )
+        TabView {
+            WelcomePage()
+            FeaturesPage()
+            HStack {
+                DayForecast(
+                    day: "Mon",
+                    isRainy: false,
+                    high: 70,
+                    low: 50
+                )
+                
+                DayForecast(
+                    day: "Tue",
+                    isRainy: true,
+                    high: 60,
+                    low: 40
+                )
+            }
         }
+        .background(Gradient(colors: gradientColors))
+        .tabViewStyle(.page)
+        .foregroundStyle(.white)
     }
 }
 
