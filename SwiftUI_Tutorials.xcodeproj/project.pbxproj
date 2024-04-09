@@ -14,6 +14,8 @@
 		71E585C62BC40E350053B8E8 /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E585C52BC40E350053B8E8 /* WelcomePage.swift */; };
 		71E585C82BC410230053B8E8 /* FeaturesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E585C72BC410230053B8E8 /* FeaturesPage.swift */; };
 		71E585CA2BC410A30053B8E8 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E585C92BC410A30053B8E8 /* FeatureCard.swift */; };
+		71E585CC2BC56DD90053B8E8 /* Chapter4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E585CB2BC56DD90053B8E8 /* Chapter4.swift */; };
+		71E585CE2BC56F350053B8E8 /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E585CD2BC56F350053B8E8 /* DiceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		71E585C52BC40E350053B8E8 /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
 		71E585C72BC410230053B8E8 /* FeaturesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesPage.swift; sourceTree = "<group>"; };
 		71E585C92BC410A30053B8E8 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		71E585CB2BC56DD90053B8E8 /* Chapter4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4.swift; sourceTree = "<group>"; };
+		71E585CD2BC56F350053B8E8 /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				71E585C52BC40E350053B8E8 /* WelcomePage.swift */,
 				71E585C72BC410230053B8E8 /* FeaturesPage.swift */,
 				71E585C92BC410A30053B8E8 /* FeatureCard.swift */,
+				71E585CB2BC56DD90053B8E8 /* Chapter4.swift */,
+				71E585CD2BC56F350053B8E8 /* DiceView.swift */,
 			);
 			path = SwiftUI_Tutorials;
 			sourceTree = "<group>";
@@ -150,8 +156,10 @@
 			files = (
 				71E585C62BC40E350053B8E8 /* WelcomePage.swift in Sources */,
 				71E585C82BC410230053B8E8 /* FeaturesPage.swift in Sources */,
+				71E585CC2BC56DD90053B8E8 /* Chapter4.swift in Sources */,
 				71E585B92BC2EBF70053B8E8 /* ContentView.swift in Sources */,
 				71E585B72BC2EBF70053B8E8 /* SwiftUI_TutorialsApp.swift in Sources */,
+				71E585CE2BC56F350053B8E8 /* DiceView.swift in Sources */,
 				71E585CA2BC410A30053B8E8 /* FeatureCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
