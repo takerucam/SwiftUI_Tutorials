@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71BD997D2BC69CF600B57145 /* Chapter5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BD997C2BC69CF600B57145 /* Chapter5.swift */; };
 		71E585B72BC2EBF70053B8E8 /* SwiftUI_TutorialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E585B62BC2EBF70053B8E8 /* SwiftUI_TutorialsApp.swift */; };
 		71E585B92BC2EBF70053B8E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E585B82BC2EBF70053B8E8 /* ContentView.swift */; };
 		71E585BB2BC2EBF90053B8E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71E585BA2BC2EBF90053B8E8 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		71BD997C2BC69CF600B57145 /* Chapter5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter5.swift; sourceTree = "<group>"; };
 		71E585B32BC2EBF70053B8E8 /* SwiftUI_Tutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Tutorials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71E585B62BC2EBF70053B8E8 /* SwiftUI_TutorialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_TutorialsApp.swift; sourceTree = "<group>"; };
 		71E585B82BC2EBF70053B8E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				71E585C92BC410A30053B8E8 /* FeatureCard.swift */,
 				71E585CB2BC56DD90053B8E8 /* Chapter4.swift */,
 				71E585CD2BC56F350053B8E8 /* DiceView.swift */,
+				71BD997C2BC69CF600B57145 /* Chapter5.swift */,
 			);
 			path = SwiftUI_Tutorials;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				71E585CC2BC56DD90053B8E8 /* Chapter4.swift in Sources */,
 				71E585B92BC2EBF70053B8E8 /* ContentView.swift in Sources */,
 				71E585B72BC2EBF70053B8E8 /* SwiftUI_TutorialsApp.swift in Sources */,
+				71BD997D2BC69CF600B57145 /* Chapter5.swift in Sources */,
 				71E585CE2BC56F350053B8E8 /* DiceView.swift in Sources */,
 				71E585CA2BC410A30053B8E8 /* FeatureCard.swift in Sources */,
 			);
